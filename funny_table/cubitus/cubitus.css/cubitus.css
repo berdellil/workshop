@@ -1,0 +1,38 @@
+body{
+    margin: 0;/*en haut , à droit, en bas et à gauche*/
+}
+.boite:nth-child(even){
+    height: 15vh;/*vh=viewport height*/
+    width: 4vw;/* vw=viewport width*/
+    padding:5vh;
+    background-color: rgba(238, 130, 238, 0.925); 
+    background-size: cover;/*étire l'image pour qu'elle rentre dans la balis*/
+    border: 2px double rgba(0, 128, 0, 0.897);
+    margin: 2vh;
+    float:left;/*sffet flottont,ca sort les éléments duflux naturelde la page les places les uns à côté des autre*/
+    transition: margin 0.5s;/*augmente le margin en 0.5s grâce à:hover*/
+    border-radius: 20px;
+
+}
+    .boite:nth-child(odd){
+        height: 15vh;/*vh=viewport height*/
+        width: 4vw;/* vw=viewport width*/
+        padding:5vh;
+        background-color: rgba(130, 238, 197, 0.993); 
+    
+        background-size: cover;/*étire l'image pour qu'elle rentre dans la balis*/
+        border: 2px double rgba(0, 0, 0, 0.952);
+        margin: 2vh;
+        float:left;/*sffet flottont,ca sort les éléments duflux naturelde la page les places les uns à côté des autre*/
+        transition: margin 0.5s;/*augmente le margin en 0.5s grâce à:hover*/
+        border-radius: 30px;
+    
+
+}
+.clear{ 
+    clear:both;/* supprime l'effet des deux côtè*/}
+
+ .boite:hover{/*pseudo-class qui applique un effet au survol de la souris*/
+    margin-top:10vh;
+ }
+

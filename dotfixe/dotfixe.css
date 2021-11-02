@@ -1,0 +1,29 @@
+body{
+    font-size: 35px;
+    text-align: center;
+    line-height: 66px;
+   font-weight: bold;
+   height: 1200px;
+}
+ #conteneur{
+    width: 100%;
+    margin: 0 auto;
+    height: 120px;
+    background-color: violet;
+    text-align: left;
+    margin: 5px;
+    
+  }
+  footer{
+    background-color: violet;
+    height: 120px;
+    margin:150px;
+    width: 100%;
+    text-align:left;
+    margin: 3px;
+  }
+  .fixed{
+      bottom: 0px;
+      position: fixed;
+      width: 100%;
+  }

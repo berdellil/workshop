@@ -1,0 +1,62 @@
+body{
+    font-size: 30px;
+}
+#conteneur{
+    width: 50%;
+    margin: 0 auto;
+    border:  2px solid rgb(23, 23, 240)
+}
+header{
+    background-color:lightsalmon;
+    height: 120px;
+     text-align: center;
+}
+nav{
+    background-color: brown;
+    height: 30px;
+    text-align: center;
+}
+section{
+    background-color:lightblue;
+    height: 500px;
+    margin: 20px;
+}
+footer{
+    background-color: chocolate;
+    height: 100px;
+    
+}
+.a , .b, .c, .d, .e, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p{
+    width: 24%;
+    height: 120px;
+    float:left;
+    text-align: center;
+    border: 2px solid ;
+    font-size: 20px;
+    line-height: 12px;
+}
+.a,.b,.c,.d{ 
+    background-color: rgba(222, 184, 135, 0.959);
+}
+
+}
+.e, .f, .g, .h{
+   background-color: gray;
+    }
+
+
+.i,.j,.k,.l{
+   background-color: hotpink;
+
+}
+
+.m,.n,.o,.p{
+
+    background-color: rgb(105, 255, 163);
+}
+}
+div {
+    text-align: center;
+    border: solid rgba(165, 42, 42, 0.144);
+    background-color: rgba(222, 184, 135, 0.959);
+}

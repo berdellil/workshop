@@ -1,0 +1,87 @@
+body{
+    margin:10px 0;
+    padding:0;
+    background-color: white;
+}
+#conteneur{
+    width: 770px;
+    margin: 0 auto;
+    border:2px solid yellow;
+    background-color: white;
+
+}
+
+h1{
+    margin:0 auto;
+    background: url(apple.jpg) no-repeat left top;
+    height:250px;
+
+}
+h1 a{
+    display:block;
+    width: 400px;
+    height: 70px;
+    background: url(title.gif) no-repeat ;
+    position:relative;
+    left: 350px;
+    top:15px;
+    text-indent: -5000px;
+}
+ul{
+    height: 35px;
+    margin:0;
+    padding: 0;
+    background: url(menu.gif) repeat-x 0 -25px;
+    list-style-type:none;
+
+}
+ul li{
+    float:left;
+    text-align: center;
+}
+ul li a{
+    display:block;
+    width: 130px;
+    line-height: 25px;
+    font-size:1.2em;
+    letter-spacing:2px;
+    color:whitesmoke;
+    text-decoration: none;
+    border-right:2px solid darkgrey;
+
+}
+ul il a{
+    background: url(menu.gif) repeat-x 0 0;
+}
+main{
+    background-image: url(color.jpg);
+    background-repeat: no-repeat;
+    background-position:15px 15px ;
+    padding:0 30px 0 100px;
+}
+main h2{
+    padding-left: 25px;
+    line-height: 25px;
+    font-size: 1.4px;
+    background: url(apple.jpg) no-repeat left botton;
+    color: black;
+    border-bottom: 1px solid #9b2;
+}
+main h3{
+    margin-left: 15px;
+    padding-left: 5px;
+    border-bottom: 1px solid#9b2;
+    border-left: 3px solid#9b2;
+    color: #9b2;
+}
+main p{
+    text-align: justify;
+    text-indent: 2em;
+    line-height: 1.7em;
+}
+footer{ 
+    margin:0;
+    padding-right: 10px;
+    line-height: right;
+    color:#9b2;
+}

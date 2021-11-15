@@ -1,0 +1,65 @@
+body{
+    background-color: linen;
+}
+    #carre1{
+        height: 60px;
+        width: 60px;
+        background: red;
+    }
+    #carre2{
+        height: 60px;
+        width: 60px;
+        background: blue;
+        margin-top: -3%;
+        position: fixed;
+    
+    }
+    #conteneur{background-color:linen;}
+    
+    #triangle {
+    
+        width  : 0;
+        height : 0;
+        border-left   : 70px solid transparent;
+        border-right  : 70px solid transparent;
+        border-top : 90px solid;
+        margin-right: auto;
+        margin-left: auto;
+       }
+    #rond {
+        
+            width: 110px;
+            height: 110px;
+            border-radius: 60px;
+            background:gray;
+            margin-right: auto;
+            margin-left: auto;
+            margin-top: 10%;}
+            
+   #ombre {
+    width: 110px;
+    height: 110px;
+    border-radius: 60px;
+    background:turquoise;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -7%;
+   }
+   #carre3{
+    height: 60px;
+    width: 60px;
+    background:green;
+    margin-top: 24%;
+    position: fixed;
+}
+#carre4{
+    height: 60px;
+    width: 60px;
+    background:yellow;
+    margin-top: 25%;
+}
+
+
+
+
+

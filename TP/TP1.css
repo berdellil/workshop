@@ -1,0 +1,58 @@
+body{
+    width: 100%;
+
+    text-align: center;
+    
+
+}
+#conteneur{
+    width: 100%;
+    background-color: burlywood;
+    padding-top: 8spx;
+}
+heder{
+    text-align: center;
+}
+
+h1{
+    color:rosybrown;
+
+    font-size: 10em;
+    border-style: none;
+    margin: auto;
+
+   
+}
+h2{
+    color: black;
+    text-decoration: underline;
+    text-align: center;
+    font-size: xx-large;
+
+}
+h3{
+    color:black;
+    
+    text-align: center;
+    font-size: medium;
+}
+main h2{
+    padding-left: 50%;
+    line-height: 50%;
+    font-size:xx-large;
+    
+    color: black;
+    border-bottom: 1px solid black;
+    margin: -16%;
+
+}
+P{
+    padding-left: 50%;
+    line-height: 50%;
+    font-size: larger;
+    color: black;
+   
+    margin-left: auto;
+}
+    
+    
